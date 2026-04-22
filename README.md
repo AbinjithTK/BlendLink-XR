@@ -29,13 +29,15 @@ BlendLink XR brings immersive VR creation to Blender — draw, sculpt, model, an
 
 ### Option 1: Download Pre-built (Recommended)
 
-1. Download the latest release from [Releases](https://github.com/AbinjithTK/BlendLink-XR/releases)
-2. Extract the Blender zip
-3. Run `blender.exe`
-4. Edit → Preferences → Add-ons → Install from Disk → select `blendlinkxr_plugin.zip`
-5. Enable "BlendLink XR"
-6. Connect Quest via Link, put on headset
-7. Click **Start VR** in the 3D Viewport header
+1. Download the latest release from
+2. (https://drive.google.com/drive/folders/172-lB4x1SUfPLJvmcaCHdk5iYak9TmEU?usp=sharing) or
+3. [Releases](https://github.com/AbinjithTK/BlendLink-XR/releases)
+4. Extract the Blender zip
+5. Run `blender.exe`
+6. Edit → Preferences → Add-ons → Install from Disk → select `blendlinkxr_plugin.zip`
+7. Enable "BlendLink XR"
+8. Connect Quest via Link, put on headset
+9. Click **Start VR** in the 3D Viewport header
 
 ### Option 2: Build from Source
 
