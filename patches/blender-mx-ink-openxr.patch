@@ -1,0 +1,14 @@
+﻿diff --git a/intern/ghost/intern/GHOST_XrContext.cc b/intern/ghost/intern/GHOST_XrContext.cc
+index 6fc868803ba..e4f1a770b6c 100644
+--- a/intern/ghost/intern/GHOST_XrContext.cc
++++ b/intern/ghost/intern/GHOST_XrContext.cc
+@@ -488,6 +488,9 @@ void GHOST_XrContext::getExtensionsToEnable(
+   /* Meta/Facebook passthrough extension. */
+   try_ext.push_back(XR_FB_PASSTHROUGH_EXTENSION_NAME);
+ 
++  /* Logitech MX Ink stylus interaction profile. */
++  try_ext.push_back("XR_LOGITECH_mx_ink_stylus_interaction");
++
+   /* Multi-vendor local floor extension. */
+   try_ext.push_back(XR_EXT_LOCAL_FLOOR_EXTENSION_NAME);
+ 
